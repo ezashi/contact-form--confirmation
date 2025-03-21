@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.thanks-message {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.thanks-button {
+    background-color: #8b5e3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.thanks-button:hover {
+    background-color: #6f482e;
+}

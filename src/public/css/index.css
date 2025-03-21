@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-form__content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form__heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 100%;
+}
+
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__group-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form__label--item {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__group-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input--text input,
+.form__input--radio input,
+.form__input--select select,
+.form__input--textarea textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form__input--radio {
+    display: flex;
+    align-items: center;
+}
+
+.form__input--radio input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.form__input--radio label {
+    margin-right: 20px;
+}
+
+.form__input--select select {
+    width: auto;
+}
+
+.form__input--textarea textarea {
+    height: 100px;
+}
+
+.form__error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    background-color: #8b5e3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.form__button-submit:hover {
+    background-color: #6f482e;
+}
+
+.form__input--text input[type="text"] {
+    margin-bottom: 10px;
+}
+
+.form__input--text input[type="text"]:last-child {
+    margin-bottom: 0;
+}
+
+.form__input--text input[type="email"] {
+    margin-bottom: 10px;
+}
+
+.form__input--text input[type="tel"] {
+    width: calc(33.333% - 10px);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form__input--text input[type="tel"]:last-child {
+    margin-right: 0;
+}
