@@ -72,7 +72,7 @@
         <td>{{ $contact->email }}</td>
         <td>{{ $categories->find($contact->category_id)->name }}</td>
         <td>{{ $contact->created_at->format('Y-m-d') }}</td>
-        <td><button class="admin-table__button" data-toggle="modal" data-target="#contactDetailModal" wire:click="$emit('showContactDetail', {{ $contact->id }})">詳細</button></td>
+        <td><button class="admin-table__button" wire:click="$emit('showContactDetail', {{ $contact->id }})">詳細</button></td>
       </tr>
       @endforeach
     </tbody>
@@ -81,7 +81,5 @@
   <!-- ページネーション -->
   {{ $contacts->links() }}
 </div>
-
-@livewire('modal')
 
 @endsection
