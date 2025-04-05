@@ -4,7 +4,8 @@
 1. git clone https://github.com/ezashi/contact-form--confirmation.git
 2. cd contact-form--confirmation
 3. docker-compose up -d --build
-※MYSQLは、OSによって起動しない場合もあるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集してください
+
+※ MYSQLは、OSによって起動しない場合もあるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集してください
 
 ### Laravel環境構築
 1. docker exec -it contact-form--confirmation-php-1 bash
@@ -30,6 +31,7 @@
 
 ### シード実行方法
 以下のコマンドを実行して、データベースを初期化し、ダミーデータを生成します：php artisan migrate:fresh --seed
+
 ※ ダミーデータの内容や件数を変更したい場合は、database/seedersおよびdatabase/factoriesディレクトリ内のファイルを修正してください
 
 ## 使用技術
