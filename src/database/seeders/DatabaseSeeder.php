@@ -15,8 +15,10 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(CategorySeeder::class);
 
-        // ユーザーデータとコンタクトデータを作成
-        \App\Models\User::factory(35)->create();
+        // ユーザーデータを作成
+        \App\Models\User::factory(3)->create();
+
+        //問い合わせデータを作成
         $this->call(ContactSeeder::class);
     }
 }
