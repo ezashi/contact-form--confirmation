@@ -25,9 +25,9 @@
 4. ショップへのお問い合わせ
 5. その他
 * 管理者ユーザーデータ: 以下の3件の管理者アカウントを作成します。
-  1. メールアドレス: admin1@example.com / パスワード: $2y$10$gaLeratCoh53hBwXr8RsEufBCtvgdfAvhtV3sTW6YSUdMmIXerT1O
-  2. メールアドレス: admin2@example.com / パスワード: $2y$10$mqeRk9KkIP/eD7AhQIBwEOKTdstQtJFU.bTT53SKaXT468GTbovDa
-  3. メールアドレス: admin3@example.com / パスワード: $2y$10$8V3yHBLkf0885MyFJcfPoOd/WD3jZjIBY5uPL0pbjit/tvnMFXSwO
+  1. メールアドレス: admin1@example.com / パスワード: password123
+  2. メールアドレス: admin2@example.com / パスワード: password123
+  3. メールアドレス: admin3@example.com / パスワード: password123
 * お問い合わせデータ: ファクトリーを使用して35件のダミーお問い合わせデータを生成します
   - 各お問い合わせには、名前、性別、メールアドレス、電話番号、住所、お問い合わせ内容などがランダムに設定されます
   - お問い合わせの種類は、上記のカテゴリーからランダムに選択されます
