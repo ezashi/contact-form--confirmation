@@ -8,7 +8,7 @@
 <div class="container">
   <h2>Contact</h2>
   <!-- フォームの送信先を確認画面に設定し、POSTメソッドを使用 -->
-  <form class="form" action="/confirm" method="post">
+  <form class="form" action="/confirm" method="post" novalidate>
     @csrf
     <div class="form__group">
       <div class="form__group-title">
